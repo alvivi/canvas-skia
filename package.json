@@ -1,0 +1,33 @@
+{
+  "name": "canvas-skia",
+  "version": "0.1.0",
+  "description": "Canvas 2D graphics API using Google Skia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvivi/canvas-skia.git"
+  },
+  "author": "Álvaro Vilanova Vidal <alvivi@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/alvivi/canvas-skia/issues"
+  },
+  "keywords": [
+    "canvas",
+    "graphic",
+    "skia",
+    "image",
+    "pdf"
+  ],
+  "homepage": "https://github.com/alvivi/canvas-skia#readme",
+  "devDependencies": {
+    "nan": "^2.6.2",
+    "node-gyp": "^3.6.2"
+  },
+  "dependencies": {
+    "bindings": "^1.2.1"
+  }
+}
